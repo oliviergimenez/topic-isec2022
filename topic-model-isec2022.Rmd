@@ -148,7 +148,8 @@ Save plot:
 ggsave(filename = "fig/topic-isec2022.png",
        plot = topicplot,
        dpi = 600,
-       width = 14)
+       width = 14,
+       height = 10)
 ```
 
 
